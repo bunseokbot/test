@@ -1,0 +1,9 @@
+pwnable:
+    port: 
+      - 8000:38173
+    type: socket
+    process: 
+        - "python"
+        
+testing:
+    - pwnable
